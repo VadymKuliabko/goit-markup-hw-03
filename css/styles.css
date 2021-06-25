@@ -6,6 +6,28 @@
   --secondary-color: #757575;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: var(--main-font);
   font-weight: 400;
@@ -20,6 +42,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -35,6 +59,37 @@ body {
 
 .header {
   background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  margin-right: 92px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .logo-web {
@@ -74,6 +129,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  margin-left: 50px;
 }
 
 .contact-link:hover,
@@ -90,16 +146,23 @@ body {
 /* ============ HERO SECTION ============ */
 .hero {
   background: #2f303a;
+  text-align: center;
+}
+
+.hero-page {
+  padding-bottom: 200px;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 200px;
 }
 
 .modal-btn {
@@ -110,10 +173,16 @@ body {
   line-height: 1.87;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .modal-btn:hover,
@@ -138,6 +207,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .feature-text {
@@ -145,6 +216,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-top: 0;
+  padding-bottom: 94px;
 }
 
 /* ============ END FEATURES ===============  */
@@ -160,6 +233,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.project.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 94px;
 }
 
 /* ============ END PROJECTS COMPANY ============== */
@@ -177,6 +258,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .team-title {
