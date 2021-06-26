@@ -61,6 +61,7 @@ body {
   background: #ffffff;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -373,6 +374,15 @@ body {
 
 .catalog-nav {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  padding-top: 94px;
+  margin-right: 8px;
+  margin-bottom: 50px;
 }
 
 .nav-btn {
@@ -384,7 +394,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  border-radius: 4px;
   cursor: pointer;
+  border: none;
+  padding: 6px 22px;
 }
 .nav-btn:hover,
 .nav-btn:focus {
@@ -392,7 +405,21 @@ body {
   color: #ffffff;
 }
 
+.nav-btn.current {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.development {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
 .development-item {
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .development-link {
@@ -405,6 +432,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .development-section {
@@ -412,4 +441,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+
+.program {
+  padding-bottom: 94px;
 }
