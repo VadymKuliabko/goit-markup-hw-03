@@ -40,12 +40,12 @@
         </nav>
 
         <ul class="contacts list">
-          <li>
-            <a class="contact-link mail" href="mailto:info@devstudio.com"
+          <li class="mail">
+            <a class="contact-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="tel">
             <a class="contact-link" href="tel:+380961111111"
               >+38 (096) 111-11-11</a
             >
@@ -73,32 +73,42 @@
           <h2 class="features-title">Приемущества компании</h2>
           <ul class="feature-list">
             <li>
-              <h3 class="title">Внимание к деталям</h3>
-              <p class="feature-text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
+              <div class="feature-item">
+                <h3 class="title">Внимание к деталям</h3>
+                <p class="feature-text">
+                  Идейные соображения, а также начало повседневной работы по
+                  формированию позиции.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-item">
+                <h3 class="title">Пунктуальность</h3>
+                <p class="feature-text">
+                  Задача организации, в особенности же рамки и место обучения
+                  кадров влечет за собой.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-item">
+                <h3 class="title">Планирование</h3>
+                <p class="feature-text">
+                  Равным образом консультация с широким активом в значительной
+                  степени обуславливает.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="title">Пунктуальность</h3>
-              <p class="feature-text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <h3 class="title">Планирование</h3>
-              <p class="feature-text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <h3 class="title">Современные технологии</h3>
-              <p class="feature-text last">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
+              <div class="feature-item last">
+                <h3 class="title">Современные технологии</h3>
+                <p class="feature-text">
+                  Значимость этих проблем настолько очевидна, что реализация
+                  плановых заданий.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -107,10 +117,10 @@
       <!--Projects-->
 
       <section class="projects">
-        <div class="container">
+        <div class="container project-container">
           <h2 class="project-title">Чем мы занимаемся</h2>
           <ul class="project list">
-            <li>
+            <li class="project-item">
               <img
                 src="./images/sitelayout.jpg"
                 alt="разработчик набирает код"
@@ -118,7 +128,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="project-item">
               <img
                 src="./images/mobiledesign.jpg"
                 alt="разработка мобильного дизайна"
@@ -141,48 +151,56 @@
       <!--Team company-->
 
       <section class="team-company">
-        <div class="container">
+        <div class="container people">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team list">
-            <li>
+            <li class="team-item">
               <img
                 src="./images/igordemianenko.jpg"
                 alt="фото игорь демьяненко"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Игорь Демьяненко</h3>
-              <p class="position" lang="en">Product Designer</p>
+              <div class="person">
+                <h3 class="team-title">Игорь Демьяненко</h3>
+                <p class="position" lang="en">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/olgarepina.jpg"
                 alt="фото ольга репина"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Ольга Репина</h3>
-              <p class="position" lang="en">Frontend Developer</p>
+              <div class="person">
+                <h3 class="team-title">Ольга Репина</h3>
+                <p class="position" lang="en">Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/nikolaytarasov.jpg"
                 alt="фото николай тарасов"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Николай Тарасов</h3>
-              <p class="position" lang="en">Marketing</p>
+              <div class="person">
+                <h3 class="team-title">Николай Тарасов</h3>
+                <p class="position" lang="en">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item-last">
               <img
                 src="./images/michailermakov.jpg"
                 alt="фото михаил ермаков"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Михаил Ермаков</h3>
-              <p class="position" lang="en">UI Designer</p>
+              <div class="person">
+                <h3 class="team-title">Михаил Ермаков</h3>
+                <p class="position" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -192,7 +210,7 @@
     <!--Footer-->
 
     <footer class="contacts-company">
-      <div class="container">
+      <div class="container footer-container">
         <a class="logo-link footer-logo" href="./index.html"
           ><span class="logo-web">Web</span
           ><span class="studio-logo">Studio</span></a
@@ -201,7 +219,7 @@
           г. Киев, пр-т Леси Украинки, 26
         </address>
         <ul class="contacts list address">
-          <li>
+          <li class="company-link-mail">
             <a class="company-link" href="mailto:info@example.com"
               >info@example.com</a
             >

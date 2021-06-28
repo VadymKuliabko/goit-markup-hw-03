@@ -130,11 +130,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  margin-left: 50px;
 }
 
 .mail {
   margin-left: 0;
+}
+
+.tel {
+  margin-left: 50px;
 }
 
 .contact-link:hover,
@@ -156,6 +159,7 @@ body {
 
 .hero-page {
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -165,9 +169,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .modal-btn {
@@ -211,6 +213,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature-item {
+  width: 270px;
+  height: 100px;
+  margin-right: 30px;
 }
 
 .title {
@@ -222,7 +232,6 @@ body {
   color: var(--main-color);
   margin-top: 0;
   margin-bottom: 10px;
-  padding-top: 94px;
 }
 
 .feature-text {
@@ -231,12 +240,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
   margin-top: 0;
-  padding-bottom: 94px;
-  margin-right: 30px;
 }
 
 .last {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 /* ============ END FEATURES ===============  */
@@ -244,6 +251,10 @@ body {
 /* ============ PROJECTS COMPANY ============ */
 .projects {
   background: #e5e5e5;
+}
+
+.project-container {
+  padding-bottom: 94px;
 }
 .project-title {
   font-weight: 700;
@@ -260,7 +271,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 94px;
+}
+
+.project-item {
+  width: 370px;
+  height: 294px;
+  margin-right: 30px;
 }
 
 /* ============ END PROJECTS COMPANY ============== */
@@ -270,6 +286,10 @@ body {
 .team-company {
   background: #f5f4fa;
 }
+.people {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .section-title {
   font-weight: 700;
@@ -278,15 +298,40 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  margin-top: 0;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .team {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.team-item {
+  width: 270px;
+  height: 368px;
+  margin-right: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+}
+
+.team-item-last {
+  width: 270px;
+  height: 368px;
+  padding-right: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+}
+
+.person {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -296,7 +341,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-align: center;
-  margin-top: 30px;
 }
 
 .position {
@@ -306,7 +350,6 @@ body {
   color: var(--secondary-color);
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 94px;
 }
 
 /* =========== END TEAM COMPANY ================ */
@@ -317,9 +360,13 @@ body {
   background: #2f303a;
 }
 
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-logo {
   display: inline-block;
-  padding-top: 60px;
   margin-right: 0px;
 }
 
@@ -339,6 +386,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .address {
@@ -350,8 +398,13 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 10px;
+
   display: inline-block;
+}
+
+.company-link-mail {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .company-link:hover,
