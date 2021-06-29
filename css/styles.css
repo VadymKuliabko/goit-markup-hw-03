@@ -47,7 +47,6 @@ body {
 }
 
 .container {
-  outline: 2px solid tomato;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -438,7 +437,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 34px;
 }
 
 .item {
